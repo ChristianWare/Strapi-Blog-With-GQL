@@ -15,12 +15,19 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+h3 {
+  margin-top: 6px;
 }
+
+.card {
+  padding: 12px;
+  box-shadow: 1px 1px 5px 2px rgba(82, 82, 82, 0.53);
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.app_wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+
